@@ -9,7 +9,7 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #ffffff;
+  --primary-color: #000000;
   --primary-text-color: #fff;
   --featured-bg: #493b8a;
   --featured-text: #fff;
@@ -29,7 +29,7 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #000000;
+  --primary-color: #ffffff;
   --primary-text-color: #fff;
   --featured-bg: #66578d;
   --featured-text: #fff;
