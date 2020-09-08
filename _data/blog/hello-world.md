@@ -4,7 +4,7 @@ path: /cisco-port-security
 date: 2020-02-20T07:08:53.137Z
 title: Cisco Port Security
 metaDescription: Cisco ile port security
-thumbnail: /assets/image-3.jpg
+thumbnail: /assets/cisco_port_security.JPG
 ---
 <!--StartFragment-->
 
