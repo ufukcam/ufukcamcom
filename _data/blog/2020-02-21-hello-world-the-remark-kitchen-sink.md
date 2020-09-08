@@ -26,4 +26,6 @@ psexec -s -i regedit.exe
 
 ```
 
+
+
 Bu işlemden sonra key’i rahatlıkla silebilirsiniz. Terminal Server’ınızı restart ettikten sonra sorununuz ortadan kalkmış olaraktır
