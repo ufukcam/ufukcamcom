@@ -2,8 +2,8 @@
 template: BlogPost
 path: /cisco-port-security
 date: 2020-02-20T07:08:53.137Z
-title: Hello World
-metaDescription: Meta description for Hello World
+title: Cisco Port Security
+metaDescription: Cisco ile port security
 thumbnail: /assets/image-3.jpg
 ---
 <!--StartFragment-->
@@ -35,19 +35,23 @@ Switch(config-if)#switchport port-security violation shu
 Switch(config-if)#switchport port-security violation shutdown
 ```
 
- Yapmış olduğumuz güvenlik protokolümüzü görüntülemek için (fa 0/1)
+ 
+
+Yapmış olduğumuz güvenlik protokolümüzü görüntülemek için (fa 0/1)
 
 ```javascript
 sh port-security interface fastEthernet 0/1
-
 ```
+
+
 
 Kapanmış olan portu görüntülemek için
 
 ```javascript
 sh port-security 
-
 ```
+
+
 
 Kapanan portu açmak için
 
