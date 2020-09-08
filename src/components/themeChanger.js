@@ -14,6 +14,8 @@ export default () => (
         <div className="mode-container">
           <i className="gg-sun"></i>
           <i className="gg-moon"></i>
+          <a target="_blank" href="https://twitter.com/ufukcam"><i className="gg-link"></i></a>
+
         </div>
       </label>
     )}
