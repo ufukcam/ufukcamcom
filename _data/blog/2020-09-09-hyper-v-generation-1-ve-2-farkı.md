@@ -8,15 +8,9 @@ thumbnail: /assets/generations_hyper_v.jpg
 ---
 ![](/assets/hyper-gen.jpg)
 
-
-
-<!--StartFragment-->
-
 Merhabalar arkadaşlar Hyper-V sanal makine oluşturma esnasında sistemin bize sorduğu 2 seçeneği elimden geldiğince anlatmaya çalışacağım.
 
 Hyper-V platformunda Generation 1 ve Generation 2 olayı bütünüyle donanımsal farklılıklar göstermektedir.
-
-
 
 Generation 2 sanal makineleri 1.nesillere göre daha güvenilir ve daha kullanışlı çalışır. Generation 2’de**IDE**sürücüleri için destek tamamen kaldırılmıştır ve ayrıca**BIOS**tabanlı yazılımlar yerine**UEFI Firmware**desteklemektedirler.
 
@@ -24,7 +18,7 @@ Size aşağıda Generation 1 ve Generation 2 sanal makinalarının desteklediği
 
 Bu arada generation’lar arasında değişiklik yapılamaz. Generation 1 olarak kurulan bir sanal makine Generation 2 ye çevrilemez.
 
-
+<!--StartFragment-->
 
 | **64-bit versions of Windows** | **Generation 1** | **Generation 2** |
 | ------------------------------ | ---------------- | ---------------- |
@@ -39,6 +33,10 @@ Bu arada generation’lar arasında değişiklik yapılamaz. Generation 1 olarak
 | Windows 8                      | +                | +                |
 | Windows 7                      | +                | \-               |
 
+<!--EndFragment-->
+
+<!--StartFragment-->
+
 | **32-bit versions of Windows** | **Generation 1** | **Generation 2** |
 | ------------------------------ | ---------------- | ---------------- |
 | Windows 10                     | +                | \-               |
@@ -46,7 +44,11 @@ Bu arada generation’lar arasında değişiklik yapılamaz. Generation 1 olarak
 | Windows 8                      | +                | \-               |
 | Windows 7                      | +                | \-               |
 
+<!--EndFragment-->
 
+
+
+<!--StartFragment-->
 
 | Operating system versions       | **Generation 1** | **Generation 2**                       |
 | ------------------------------- | ---------------- | -------------------------------------- |
@@ -63,7 +65,11 @@ Bu arada generation’lar arasında değişiklik yapılamaz. Generation 1 olarak
 | Ubuntu 14.04 and later versions | +                | +                                      |
 | Ubuntu 12.04                    | +                | \-                                     |
 
+<!--EndFragment-->
 
+
+
+<!--StartFragment-->
 
 | **Boot method**                              | **Generation 1** | **Generation 2** |
 | -------------------------------------------- | ---------------- | ---------------- |
@@ -72,6 +78,12 @@ Bu arada generation’lar arasında değişiklik yapılamaz. Generation 1 olarak
 | VHDX yada ISO                                | \-               | +                |
 | IDE Controller'dan VHD yada ISO              | +                | \-               |
 | Boot from floppy (.VFD)                      | +                | \-               |
+
+<!--EndFragment-->
+
+
+
+<!--StartFragment-->
 
 | **Generation 1 Donanımı** | **Generation 2 Değişenleri** | **Generation 2 Geliştirmeleri** |
 | ------------------------- | ---------------------------- | ------------------------------- |
