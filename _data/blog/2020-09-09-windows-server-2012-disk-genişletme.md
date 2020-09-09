@@ -5,6 +5,7 @@ date: 2020-09-09T10:29:40.509Z
 title: Windows Server 2012 Disk Genişletme
 metaDescription: |
   Windows Server 2012 Disk Genişletme
+thumbnail: /assets/disk_genisletme.JPG
 ---
 
 
