@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /cisco-trunk-yapilandirmasi
-date: 2020-02-20T14:59:36.571Z
+date: 2019-02-26T14:59:00.000Z
 title: Vlan Trunk Protokolü Yapılandırması
 metaDescription: Vlan Trunk Protokolü Yapılandırması
 thumbnail: /assets/image-5.jpg
