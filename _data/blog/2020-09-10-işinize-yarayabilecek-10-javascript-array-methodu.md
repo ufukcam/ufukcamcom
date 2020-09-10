@@ -23,8 +23,6 @@ exampleArray.flat(); // derinlik belirtmiyorum.
 
 kullanımı bu şekildedir => array.flat(<depth>); Derinlik belirtmemişsek derinliği 1 olarak alacaktır.
 
-
-
 ```javascript
 const exampleArray = [[10, 20, [30, 40]], [50, 60, 70]];
 exampleArray.flat(2); // depth 2 
@@ -37,8 +35,6 @@ exampleArray.flat(2); // depth 2
 
 Belirtiğimiz koşul için array içerisindeki tüm elemanları kontrol eder. Eğer hepsi buna uyuyorsa true dönecektir.
 
-
-
 ```javascript
 const exampleArray = [10, 20, 30, 40, 50, 60, 70];
 exampleArray.every(num => num >= 10); // hepsi 10'dan büyük yada eşitse
@@ -50,8 +46,6 @@ exampleArray.every(num => num >= 10); // hepsi 10'dan büyük yada eşitse
 **3. some()**
 
 Array içerisinde koşula uyan tek bir eleman bulunduğu anda ***true*** dönecektir.
-
-
 
 ```javascript
 const exampleArray = ['k', 'u', 't', 'a', 'y'];
@@ -66,14 +60,11 @@ kısaca yazmak gerekirse;
 
 ```javascript
 const exampleArray = ['k', 'u', 't', 'a', 'y'].some(baby => baby === 'u');
-
 ```
 
 
 
 bir örnekle daha yapalım.
-
-
 
 ```javascript
 const example2 = [10, 20, 30, 40].some(num => num > 20); // 20'den büyük numara varsa
@@ -85,8 +76,6 @@ const example2 = [10, 20, 30, 40].some(num => num > 20); // 20'den büyük numar
 **4. map()**
 
 Map methodu sayesinde arrayimizin içindeki değerlerde değişiklik yapıp yeni bir array olarak yazmamızı sağlar. Bir kaç örnekle gösterecek olursak.
-
-
 
 ```javascript
 const exampleArray = [2, 4, 6, 8, 10, 12];
@@ -127,8 +116,6 @@ exampleArray.filter(Element => Element.user === 'Kutay');
 **6. find()**
 
 Find methodu aldığı test fonksiyonuna bakarak array içerisinde gezer ve ilk karşılaştığı değeri bize verir. Hemen örnek yapalım.
-
-
 
 ```javascript
 const exampleArray = [
