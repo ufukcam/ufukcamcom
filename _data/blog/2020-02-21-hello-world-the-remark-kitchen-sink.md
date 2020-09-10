@@ -5,7 +5,7 @@ date: 2020-02-21T12:12:25.364Z
 title: Terminal Server Lisans Hatası
 metaDescription: |
   Terminal Server Lisans Hatası
-thumbnail: /assets/image-6.jpg
+thumbnail: /assets/windows_terminal_server.jpg
 ---
 Terminal Server’a rdp ile bağlanırken aşağıdaki hatayı alıyorsanız bu işlemleri uygulayabilirsiniz.
 
