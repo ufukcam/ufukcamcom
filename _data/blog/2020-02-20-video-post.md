@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /hyper-v-ile-sanal-makina-olusturma
-date: 2020-02-20T15:05:49.332Z
+date: 2019-03-13T15:05:00.000Z
 title: Hyper-V ile Sanal Makine Oluşturma
 metaDescription: Hyper-V ile Sanal Makine Oluşturma
 thumbnail: /assets/image-1.jpg
