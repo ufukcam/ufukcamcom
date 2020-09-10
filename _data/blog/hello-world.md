@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /cisco-port-security
-date: 2020-02-20T07:08:53.137Z
+date: 2019-02-20T07:08:00.000Z
 title: Cisco Port Security
 metaDescription: Cisco ile port security
 thumbnail: /assets/cisco_port_security.JPG
