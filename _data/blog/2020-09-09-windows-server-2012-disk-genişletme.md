@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /windows-server-2012-disk-genisletme
-date: 2020-09-09T10:29:40.509Z
+date: 2020-01-01T10:29:40.509Z
 title: Windows Server 2012 Disk Genişletme
 metaDescription: |
   Windows Server 2012 Disk Genişletme
