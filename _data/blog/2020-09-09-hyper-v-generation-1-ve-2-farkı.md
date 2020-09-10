@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /hyper-v-generation-1-ve-2-farki
-date: 2020-09-09T11:08:36.782Z
+date: 2020-10-01T11:08:36.782Z
 title: Hyper-V Generation 1 ve 2 Farkı
 metaDescription: Hyper-V Generation 1 ve 2 Farkı
 thumbnail: /assets/generations_hyper_v.jpg
