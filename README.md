@@ -6,10 +6,6 @@ Blog for Developer and Designer I used delog This simple website built with Gats
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/W3Layouts/gatsby-starter-delog)
 
-Install this starter locally: (assuming you already have [NodeJS and GatsbyJS installed](https://www.gatsbyjs.org/tutorial/part-zero/))
-```bash
-gatsby new gatsby-starter-delog https://github.com/W3Layouts/gatsby-starter-delog
-```
 
 Instructions also available at W3Layouts [Delog Launch Article](https://w3layouts.com/articles/delog-gatsby-starter-netlify-cms/).
 
