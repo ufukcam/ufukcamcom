@@ -77,7 +77,7 @@ a {
   align-items: center;
   font-weight: 300;
   a {
-    color: #888;
+    color: #fff;
     text-decoration: none;
     margin: 0 8px 0;
     &[aria-current] {
@@ -85,7 +85,7 @@ a {
       font-weight: 700;
     }
     &:hover {
-      color: var(--primary-color);
+      color: #bababa;
     }
     &:last-child {
       margin-right: 0;
