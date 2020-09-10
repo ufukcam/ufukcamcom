@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /terminal-server-lisans-hatasi
-date: 2020-02-21T12:12:25.364Z
+date: 2019-04-10T12:12:00.000Z
 title: Terminal Server Lisans Hatası
 metaDescription: |
   Terminal Server Lisans Hatası
