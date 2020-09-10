@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /active-directory-saatimizi-public-olarak-ayarlama/
-date: 2020-09-09T09:58:23.612Z
+date: 2019-05-29T09:58:00.000Z
 title: Active Directory Saatimizi Public Olarak Ayarlama
 metaDescription: |
   Active Directory Saatimizi Public Olarak Ayarlama
