@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /sql-server-maintenance-backup-plani
-date: 2020-09-09T10:07:40.617Z
+date: 2019-09-06T10:07:40.617Z
 title: SQL Server Maintenance Backup Planı
 metaDescription: SQL Server Maintenance Backup Planı
 thumbnail: /assets/sql_server_backup.jpg
