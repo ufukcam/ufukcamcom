@@ -37,7 +37,6 @@ export default function Template({
         </article>
       </div>
     </Layout>
-    <script data-ad-client="ca-pub-3032370781488275" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   )
 }
 
