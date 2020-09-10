@@ -1,5 +1,5 @@
 
-# ufukcam.com with Delog - Blog for Developer and Designer
+# ufukcam.com - Blog for Developer and Designer I used delog
 This simple website built with GatsbyJS and Netlify CMS. Deploys on netlify with single click. This Starter is sponsered by [W3Layouts](https://w3layouts.com).
 
 [![Delog - Gatsby Starter Demo](https://www.kodix.net/ufukcamcom.jpg)](https://ufukcam.com/)
