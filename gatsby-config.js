@@ -44,7 +44,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ufuk GatbsyJS Starter`,
+        name: `UfukApp`,
         short_name: `UfukApp`,
         start_url: `/`,
         background_color: `#fff`,
