@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /webpushr-ile-bildirim-gönderme
+path: /webpushr-ile-bildirim-gonderme
 date: 2020-09-14T19:05:09.349Z
 title: Webpushr ile Bildirim Gönderme
 metaDescription: Webpushr ile Bildirim Gönderme
