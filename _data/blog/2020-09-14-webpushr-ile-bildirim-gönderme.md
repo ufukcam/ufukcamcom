@@ -29,6 +29,10 @@ Ve sitemize eklememiz gereken javascript dosyasını ve eklememiz gereken kod bl
 
 Kurulum işlemlerimiz tamamlanmış bulunmakta. Şimdi bu ekranda özelleştirmeler yapıp push bildirimleri göndereceğiz.
 
-İlk olarak `setup` menüsünün altındaki `Opt-In Prompts` ile başlıyorum. Bu menüde sitemizi ilk kez ziyaret eden kullanıcıları karşılayacak olan prompt ayarlarımızı yapacağız. Buradaki headline ve text alanlarını türkçeleştirip stil ayarlarınızı isteğinize göre yapılandırabilirsiniz. 
+İlk olarak `setup` menüsünün altındaki `Opt-In Prompts` ile başlıyorum. Bu menüde sitemizi ilk kez ziyaret eden kullanıcıları karşılayacak olan prompt ayarlarımızı yapacağız. Buradaki headline ve text alanlarını Türkçeleştirip stil ayarlarınızı isteğinize göre yapılandırabilir siniz. 
 
 ![](/assets/webpushr-6.jpg)
+
+Şimdi `Subscription Bell` menüsünden bildirimlere abone olan kullanıcılar için bildirimleri devre dışı bırakma, yeniden abone olma gibi işlemler yapılacak. Hali hazırda bir önceki abonelik bildirimini reddeden kullanıcılar içinde gösterilmeye devam edilecektir. Bu özelliği kullanmak istemezseniz Hide Subscription Bell butonu ile devre dışı bırakabilirsiniz. 
+
+![](/assets/webpushr-7.png)
