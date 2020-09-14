@@ -25,6 +25,7 @@ module.exports = {
             inlineCodeMarker: null,
             aliases: {},
             showLineNumbers: false,
+            gcm_sender_id: '482941778795',
             noInlineHighlight: false,
           },
         },
