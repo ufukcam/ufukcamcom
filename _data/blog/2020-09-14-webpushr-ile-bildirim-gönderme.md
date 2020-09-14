@@ -14,41 +14,23 @@ Webpushr hem tüm mobil cihazlar hem de bilgisayarlar için tasarlanmış basit 
 
 Öncelikle [bu linkten](https://app.webpushr.com/signup) üye olalım ve ardından bizi login sayfasına yönlendirecek. Giriş yaptıktan sonra aşağıda da görmüş olduğumuz hızlı kurulum sayfası bizi karşılayacak. Ayarlarımı aşağıdaki gibi yapıp ilerliyorum.
 
-
-
 ![](/assets/webpushr-1.png)
 
-
-
-Ve sitemize eklememiz gereken javascript dosyasını ve eklememiz gereken kod bloğunu bize göstermekte. Linkten webpushr-sw.js dosyasını indirip sitemizin ana dizinine yüklüyoruz ve ardından diğer kod bloğunu sitemizin <head></head> tagları arasına yerleştiriyoruz. 
-
-
+Ve sitemize eklememiz gereken javascript dosyasını ve eklememiz gereken kod bloğunu bize göstermekte. Linkten webpushr-sw.js dosyasını indirip sitemizin ana dizinine yüklüyoruz ve ardından diğer kod bloğunu sitemizin **head** tagları arasına yerleştiriyoruz. 
 
 ![webpusr push ](/assets/webpushr-2.png)
 
-
-
 İlerlediğimizde kurulum işlemi tamamlanmış oluyor. Dashboard ekranına ilerliyoruz. 
 
-
-
 ![](/assets/webpushr-3.png)
-
-
 
 Kurulum işlemlerimiz tamamlanmış bulunmakta. Şimdi bu ekranda özelleştirmeler yapıp push bildirimleri göndereceğiz.
 
 İlk olarak `setup` menüsünün altındaki `Opt-In Prompts` ile başlıyorum. Bu menüde sitemizi ilk kez ziyaret eden kullanıcıları karşılayacak olan prompt ayarlarımızı yapacağız. Buradaki headline ve text alanlarını Türkçeleştirip stil ayarlarınızı isteğinize göre yapılandırabilirsiniz. 
 
-
-
 ![](/assets/webpushr-5.png)
 
-
-
 Şimdi `Subscription Bell` menüsünden bildirimlere abone olan kullanıcılar için bildirimleri devre dışı bırakma, yeniden abone olma gibi işlemler yapılacak. Hali hazırda bir önceki abonelik bildirimini reddeden kullanıcılar içinde gösterilmeye devam edilecektir. Bu özelliği kullanmak istemezseniz Hide Subscription Bell butonu ile devre dışı bırakabilirsiniz. 
-
-
 
 ![](/assets/webpushr-7.png)
 
