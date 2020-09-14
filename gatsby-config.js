@@ -50,7 +50,6 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#381696`,
         display: `standalone`,
-        gcm_sender_id: '482941778795',
         icon: "src/images/icon.png",
       },
     },
