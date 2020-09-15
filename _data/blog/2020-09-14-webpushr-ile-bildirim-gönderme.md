@@ -8,7 +8,7 @@ thumbnail: /assets/webpusr-push-natification.png
 ---
 Merhabalar arkadaşlar, 
 
-Webpushr hem tüm mobil cihazlar hem de bilgisayarlar için tasarlanmış basit ve ücretsiz (60K aboneye kadar) bir Push Notification sistemidir. Web sitenizdeki kampanyaları, yeni postları vs. daha önceden sitenizi ziyaret etmiş ve abone olmuş kullanıcılara bildirim mesajlarınızı gönderebilirsiniz. Şimdi sizlere tipik Webpusr kullanımını anlatmaya çalışacağım. 
+Webpushr genel olarak bilgisayarlar için tasarlanmış basit ve ücretsiz (60K aboneye kadar) bir Push Notification sistemidir. Web sitenizdeki kampanyaları, yeni postları vs. daha önceden sitenizi ziyaret etmiş ve abone olmuş kullanıcılara bildirim mesajlarınızı gönderebilirsiniz. Şimdi sizlere tipik Webpusr kullanımını anlatmaya çalışacağım. 
 
 ## Webpushr Typical Site Kurulumu ve Yapılandırma
 
