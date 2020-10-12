@@ -5,8 +5,8 @@ import ThemeChanger from "../components/themeChanger"
 export default (props) => (
   <nav className="navigation"> 
     
-    <Link to="/contact">İletişim</Link>
-    <a target="_blank" href="https://linktr.ee/ufukcam">Linktree</a>
+   {/* <Link to="/contact">İletişim</Link>
+    <a target="_blank" href="https://linktr.ee/ufukcam">Linktree</a> */}
     <ThemeChanger/>
   </nav>
   
