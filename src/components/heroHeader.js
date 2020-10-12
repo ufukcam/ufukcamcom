@@ -21,7 +21,8 @@ export default () => (
           className="primary-content" 
           dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
         />
-        <Link to='https://linktr.ee/ufukcam' className="button -primary">Get in touch &rarr;</Link>
+     <!--   <Link to='https://linktr.ee/ufukcam' className="button -primary">Get in touch &rarr;</Link> -->
+        <a href="https://linktr.ee/ufukcam" target="_blank" className="button -primary">Get in touch &rarr;</a>
       </div>
     )}
   />
