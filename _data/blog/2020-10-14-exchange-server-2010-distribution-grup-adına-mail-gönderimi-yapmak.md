@@ -10,12 +10,12 @@ thumbnail: /assets/exchange-server.jpg
 ---
 Merhabalar arkadaşlar. Oluşturduğumuz Distribution Grup üyeleri bazen bu grup adına mail gönderimi yapmak isteyebiliyorlar. Bu işlemi Exchange Management Shell ile yapmayı göstereceğim. Elimden geldiğince :)
 
-Shell konsolumuzu açtıktan sonra bu işlemi yapacağımız grubun özelliklerini getiriyor ve inceliyoruz.Bunu aşağıdaki shell komutu ile yapabiliriz.
+Shell konsolumuzu açtıktan sonra bu işlemi yapacağımız grubun özelliklerini getiriyor ve inceliyoruz. Bunu aşağıdaki shell komutu ile yapabiliriz.
 
 
 
 ```
-Get-DistributionGroup testufuk | Format-List  // burada testufuk grubunun özelliklerini getiriyoruz
+Get-DistributionGroup testufuk | Format-List  
 ```
 
 
