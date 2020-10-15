@@ -17,8 +17,6 @@ boot
 switch:
 ```
 
-
-
 burada **flash_init** komutunu yazıp enter’a basıyoruz.
 
 daha sonra kullancağımız komut ise **load_helper**
@@ -36,8 +34,6 @@ Switch#rename flash:config.old flash:config.text
 Switch#copy flash:config.text system:running-config
 ```
 
-
-
 Şimdi yeni şifremizi belirleyebiliriz.
 
 ```
@@ -52,3 +48,5 @@ test#
  
 Bu KADAR!
 ```
+
+<script src="https://gist.github.com/ufukcam/e15f419c727f8c96b092f0c170fd0417.js"></script>
