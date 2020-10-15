@@ -48,5 +48,3 @@ test#
  
 Bu KADAR!
 ```
-
-<script src="https://gist.github.com/ufukcam/e15f419c727f8c96b092f0c170fd0417.js"></script>
