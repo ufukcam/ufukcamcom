@@ -12,50 +12,34 @@ Merhabalar arkadaşlar. Oluşturduğumuz Distribution Grup üyeleri bazen bu gru
 
 Shell konsolumuzu açtıktan sonra bu işlemi yapacağımız grubun özelliklerini getiriyor ve inceliyoruz. Bunu aşağıdaki shell komutu ile yapabiliriz.
 
-
-
 ```
 Get-DistributionGroup testufuk | Format-List  
 ```
 
-
-
 Eğer grup üyelerininin yada tüm gurubun mail gönderimine ile ilgili yetki durumu **GrantSendOnBehalfTo** alanında gözükecektir. Şuanda burası boş geliyor, herhangi bir işlem yapmadık.
 
-![exchange-server-2010](/assets/exchange1.jpg)
+![exchange-server-2010](/assets/exchange1.png)
 
 Şimdi testufuk grubundaki ufuk.cam üyesinin bu grup adına mail gönderimi yapmasına izin verelim oluyoruz
-
-
 
 ```
 Set-DistributionGroup "testufuk" –GrantSendOnBehalfTo ufuk.cam
 ```
 
-
-
 Tekrardan kontrol ettiğimizde gördüğünüz gibi ufuk.cam kullanıcısı yetkilendirilmiş oluyor.
-
-
 
 ![](/assets/exchange2.jpg)
 
 Tüm grup üyelerine bu yetkiyi vermek istiyorsak aşağıdaki gibi yapılandırabiliriz.
 
-
-
 ```
 Set-DistributionGroup "testufuk" -GrantSendOnBehalfTo testufuk
 ```
-
-
 
 Böylelikle bu kısımdaki işlemlerimizi bitirmiş oluyoruz. Şimdi tek yapmamız gereken outlook üzerinde mail gönderirken **Kimden** bölümüne grup mailimizi eklemek.
 
 ![](/assets/outlook-tarafi.JPG)
 
 ![](/assets/ornek.jpg)
-
-
 
 Tüm işlemler bu kadar, umarım işinize yaramıştır. Sevgiler.
