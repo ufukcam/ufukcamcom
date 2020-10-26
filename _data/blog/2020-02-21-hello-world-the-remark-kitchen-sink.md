@@ -11,21 +11,22 @@ Terminal Server’a rdp ile bağlanırken aşağıdaki hatayı alıyorsanız bu 
 
 ![](/assets/ts.png)
 
-
-
 İlk olarak regedit’teki terminal server keylerini temizlememiz gerekiyor. Bunun için yönetici olarak regedit’i çalıştırdıktan sonra HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\RCM\GracePeriod yolundaki keyi temizliyoruz.
 
 ![](/assets/ts3.png)
-
-
 
 Bu keyi silme esnasında**“Unable to delete all specified values.”**hatası alırsanız. Bu [adresten](http://technet.microsoft.com/en-us/sysinternals/bb896649) PSTools programını indiriniz. PsExec.exe dosyasını C:\Windows\System32 dosyasının içine kopyalayınız. Daha sonra yönetici olarak cmd.exe çalıştırıp aşağıdaki komut satırını işleme alınız.
 
 ```
 psexec -s -i regedit.exe
-
 ```
 
+Bu işlemden sonra key’i rahatlıkla silebilirsiniz. Terminal Server’ınızı restart ettikten sonra sorununuz ortadan kalkmış olaraktır.
+
+Kontrol etmek için aşağıdaki komutu kullanabilirsiniz. 
+
+```powershell
+(Invoke-WmiMethod -PATH (gwmi -namespace root\cimv2\terminalservices -class win32_terminalservicesetting).__PATH -name GetGracePeriodDays).daysleft
 
 
-Bu işlemden sonra key’i rahatlıkla silebilirsiniz. Terminal Server’ınızı restart ettikten sonra sorununuz ortadan kalkmış olaraktır
+```
