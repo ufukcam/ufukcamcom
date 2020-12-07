@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /bilgisayariniza-kurulu-olan-mail-sifrelerini-ogrenme
-date: 2020-09-10T13:18:20.164Z
+date: 2020-09-08T13:18:00.000Z
 title: Bilgisayarınıza Kurulu Olan Mail Şifrelerini Öğrenme
 metaDescription: |
   Bilgisayarınıza Kurulu Olan Mail Şifrelerini Öğrenme
