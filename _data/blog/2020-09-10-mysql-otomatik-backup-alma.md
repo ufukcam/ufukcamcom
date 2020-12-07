@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /mysql-otomatik-backup-alma
-date: 2020-09-10T09:30:21.766Z
+date: 2020-04-10T09:30:00.000Z
 title: Mysql Otomatik Backup Alma
 metaDescription: |
   Mysql Otomatik Backup Alma
