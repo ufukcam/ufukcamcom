@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /javascript-fonksiyon-kullanimi-evdekal
-date: 2020-09-10T17:10:38.514Z
+date: 2019-03-07T17:10:00.000Z
 title: JavaScript Fonksiyon Kullanımı
 metaDescription: |
   JavaScript Fonksiyon Kullanımı
