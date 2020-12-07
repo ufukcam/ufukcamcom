@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /windows-icin-cmd-komutlari
-date: 2020-09-10T12:27:46.313Z
+date: 2020-07-10T12:27:00.000Z
 title: Windows İçin CMD Komutları
 metaDescription: |
   Windows İçin CMD Komutları
