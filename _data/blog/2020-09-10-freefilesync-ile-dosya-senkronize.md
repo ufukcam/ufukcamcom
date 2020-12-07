@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /freefilesync-ile-dosya-senkronize
-date: 2020-09-10T12:06:16.324Z
+date: 2020-05-20T12:06:00.000Z
 title: FreeFileSync ile Dosya Senkronize
 metaDescription: |
   FreeFileSync ile Dosya Senkronize
