@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /sql-server-tetikleyicileri
-date: 2020-09-10T18:03:35.912Z
+date: 2020-09-09T18:03:00.000Z
 title: SQL Server Tetikleyicileri
 metaDescription: |
   SQL Server Tetikleyicileri
