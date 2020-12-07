@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /php-7-4-inceleme
-date: 2020-09-10T13:09:26.346Z
+date: 2019-12-10T13:09:00.000Z
 title: PHP 7.4 İnceleme
 metaDescription: |
   PHP 7.4 İnceleme
