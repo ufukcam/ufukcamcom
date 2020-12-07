@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /yeni-windows-10-guncellemesi-ile-hersey-cozuluyor-mu
-date: 2020-09-10T12:22:31.195Z
+date: 2020-06-01T12:22:00.000Z
 title: Yeni Windows 10 Güncellemesi ile herşey çözülüyor mu?
 metaDescription: |
   Yeni Windows 10 Güncellemesi ile herşey çözülüyor mu?
