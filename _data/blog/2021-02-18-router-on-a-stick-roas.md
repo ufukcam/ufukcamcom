@@ -41,7 +41,7 @@ routerTest(config)#no shutdown
 
 <br>
 
-Portu sadece açıyoruz. herhangi bir ip adresi tanımlamayacağız.  Şimdi asıl noktaya gelelim. İlk interfacemizi oluşturalım ve vlan atamamızı yapalım!<br>
+Portu sadece açıyoruz. herhangi bir ip adresi tanımlamayacağız. Şimdi asıl noktaya gelelim. İlk interfacemizi oluşturalım ve vlan atamamızı yapalım!<br>
 
 ```javascript
 routerTest(config)#Interface gigabitEthernet 0/1.10
@@ -60,11 +60,11 @@ routerTest(config)#ip address 192.168.10.1 255.255.255.0
 
 **Yukarıdaki satırda 0/1 in  diğer ayağının VLAN 10 a bağlı olduğunu söylüyoruz.**
 
-Aynı işlemi vlan 20 içinde yapınız.  
+Aynı işlemi VLAN20 içinde yapınız.  
 
-Şimdi vlanlarımızı oluşturduk, Roas yapılandırmamızı yaptık gateway atama işlemlerini yaptık. 
+Şimdi vlanlarımızı oluşturduk, RoaS yapılandırmamızı yaptık gateway atama işlemlerini yaptık. 
 
-Böylece VLAN ve VLAN20 haberleşebilir durumda.
+Böylece VLAN10 ve VLAN20 haberleşebilir durumda.
 
 Aşağıdaki resimde de gigabitEthernet0/0 ' ın 2 sub-interface'ini görebiliriz.
 
