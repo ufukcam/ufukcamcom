@@ -31,8 +31,6 @@ IT(config-if)#switchport mode trunk
 
 <br>şimdi gelelim Roas yapılandırmamıza. gigabitethernet 0/1 portuna girerek portu ayağa kaldıralım.
 
-<br>  
-
 ```javascript
 routerTest>en
 routerTest>conf t
@@ -58,7 +56,7 @@ routerTest(config)#encapsulation dot1Q 10
 routerTest(config)#ip address 192.168.10.1 255.255.255.0
 ```
 
-<br><br>
+<br>
 
 **Yukarıdaki satırda 0/1 in  diğer ayağının VLAN 10 a bağlı olduğunu söylüyoruz.**
 
