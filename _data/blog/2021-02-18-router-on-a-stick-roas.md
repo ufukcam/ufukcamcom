@@ -16,7 +16,7 @@ Bu vlanların aralarında iletişim kurabilmeleri için Routerlar üzerinde yap�
 
 ![roas-ufukcam](/assets/roas-senaryo.JPG)
 
-İlk olarak 2 pc için yapılandırmalarımızı hızlıca yapalım.
+İlk olarak 2 pc için yapılandırmalarımızı hızlıca yapalım.<br>
 
 ```javascript
 IT(config)#vlan 10
@@ -29,7 +29,9 @@ IT(config)#interface gigabitEthernet 0/1
 IT(config-if)#switchport mode trunk
 ```
 
-şimdi gelelim Roas yapılandırmamıza. gigabitethernet 0/1 portuna girerek portu ayağa kaldıralım.  
+<br>şimdi gelelim Roas yapılandırmamıza. gigabitethernet 0/1 portuna girerek portu ayağa kaldıralım.
+
+<br>  
 
 ```javascript
 routerTest>en
@@ -39,11 +41,15 @@ routerTest(config)#no ip address
 routerTest(config)#no shutdown
 ```
 
-Portu sadece açıyoruz. herhangi bir ip adresi tanımlamayacağız.  Şimdi asıl noktaya gelelim. İlk interfacemizi oluşturalım ve vlan atamamızı yapalım!
+<br>
+
+Portu sadece açıyoruz. herhangi bir ip adresi tanımlamayacağız.  Şimdi asıl noktaya gelelim. İlk interfacemizi oluşturalım ve vlan atamamızı yapalım!<br>
 
 ```javascript
 routerTest(config)#Interface gigabitEthernet 0/1.10
 ```
+
+<br>
 
 Burada **.**'dan sonraki 10 değeri VLAN numaramız oluyor. bu işlemden sonra kapsüllenme işlemini yapmamız gerekiyor. VLAN Encapsulation data paketlerinin içerisindeki vlan kimliklerini tanımlamaktadır. burda gigabit 0/1 portu üzerinden geçecek olan 10 ve 20 vlanları diğer tüm vlanlar tarafından bu sayede tanınacaktır. 
 
@@ -52,15 +58,7 @@ routerTest(config)#encapsulation dot1Q 10
 routerTest(config)#ip address 192.168.10.1 255.255.255.0
 ```
 
- 
-
-
-
-
-
-
-
-
+<br><br>
 
 **Yukarıdaki satırda 0/1 in  diğer ayağının VLAN 10 a bağlı olduğunu söylüyoruz.**
 
