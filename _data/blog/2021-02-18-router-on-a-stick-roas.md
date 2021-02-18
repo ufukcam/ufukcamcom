@@ -52,7 +52,17 @@ routerTest(config)#encapsulation dot1Q 10
 routerTest(config)#ip address 192.168.10.1 255.255.255.0
 ```
 
- **Yukarıdaki satırda 0/1 in  diğer ayağının VLAN 10 a bağlı olduğunu söylüyoruz.**
+ 
+
+
+
+
+
+
+
+
+
+**Yukarıdaki satırda 0/1 in  diğer ayağının VLAN 10 a bağlı olduğunu söylüyoruz.**
 
 Aynı işlemi vlan 20 içinde yapınız.  
 
