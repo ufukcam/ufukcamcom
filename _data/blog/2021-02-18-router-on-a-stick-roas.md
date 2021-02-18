@@ -4,6 +4,7 @@ path: /roas
 date: 2021-02-18T12:34:22.181Z
 title: Router On a Stick - RoaS
 metaDescription: Sanal ağlar oluşturma ve iletişimlerini sağlama.
+thumbnail: /assets/router-on-a-stick.JPG
 ---
 Her vlan farklı bir broadcast domain oluşturdukları için farklı vlanlardaki cihazlar ile iletişim kuramazlar. Broadcast domain ile ilgilide ufak makalem yolda :) 
 
