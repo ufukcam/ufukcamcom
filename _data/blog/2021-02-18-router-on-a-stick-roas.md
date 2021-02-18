@@ -37,7 +37,7 @@ IT(config-if)#switchport mode trunk
 ```cobol
 routerTest>en
 routerTest>conf t
-routerTest(config)#Interface gigabitEtherne 0/1
+routerTest(config)#Interface gigabitEthernet 0/1
 routerTest(config)#no ip address
 routerTest(config)#no shutdown
 ```
