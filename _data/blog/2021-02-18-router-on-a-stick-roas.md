@@ -58,3 +58,7 @@ routerTest(config)#encapsulation dot1Q 10 ( yani burada 0/1 in  diğer ayağın�
 aynı işlemi vlan 20 içinde yapıyoruz.  Şimdi vlanlarımızı oluşturduk, Roas yapılandırmamızı yaptık gateway atama işlemlerini yaptık. 
 
 ve böylece vlan10 ve vlan 20 haberleşebilir durumda.
+
+Aşağıdaki resimde de gigabitEthernet0/0 ' ın 2 sub-interface'ini görebiliriz.
+
+![roas](/assets/roas.JPG)
