@@ -18,7 +18,7 @@ Bu vlanların aralarında iletişim kurabilmeleri için Routerlar üzerinde yap�
 
 İlk olarak 2 pc için yapılandırmalarımızı hızlıca yapalım.
 
-```cobol
+```javascript
 IT(config)#vlan 10 Switch(config-vlan)#vlan 20
 IT(config)#interface fastEthernet 0/1
 IT(config-if)#switchport access vlan 10
@@ -28,11 +28,7 @@ IT(config)#interface gigabitEthernet 0/1
 IT(config-if)#switchport mode trunk
 ```
 
-
-
 şimdi gelelim Roas yapılandırmamıza. gigabitethernet 0/1 portuna girerek portu ayağa kaldıralım.  
-
-
 
 ```cobol
 routerTest>en
@@ -49,8 +45,6 @@ routerTest(config)#Interface gigabitEthernet 0/1.10
 ```
 
 Burada **.**'dan sonraki 10 değeri VLAN numaramız oluyor. bu işlemden sonra kapsüllenme işlemini yapmamız gerekiyor. VLAN Encapsulation data paketlerinin içerisindeki vlan kimliklerini tanımlamaktadır. burda gigabit 0/1 portu üzerinden geçecek olan 10 ve 20 vlanları diğer tüm vlanlar tarafından bu sayede tanınacaktır. 
-
-
 
 ```cobol
 routerTest(config)#encapsulation dot1Q 10
