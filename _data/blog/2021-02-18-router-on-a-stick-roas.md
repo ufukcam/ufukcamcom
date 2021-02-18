@@ -47,7 +47,7 @@ Portu sadece açıyoruz. herhangi bir ip adresi tanımlamayacağız.  Şimdi as�
 routerTest(config)#Interface gigabitEthernet 0/1.10
 ```
 
-burada .'dan sonraki 10 değeri VLAN numaramız oluyor. bu işlemden sonra kapsüllenme işlemini yapmamız gerekiyor. VLAN Encapsulation data paketlerinin içerisindeki vlan kimliklerini tanımlamaktadır. burda gigabit 0/1 portu üzerinden geçecek olan 10 ve 20 vlanları diğer tüm vlanlar tarafından bu sayede tanınacaktır. 
+burada **.**'dan sonraki 10 değeri VLAN numaramız oluyor. bu işlemden sonra kapsüllenme işlemini yapmamız gerekiyor. VLAN Encapsulation data paketlerinin içerisindeki vlan kimliklerini tanımlamaktadır. burda gigabit 0/1 portu üzerinden geçecek olan 10 ve 20 vlanları diğer tüm vlanlar tarafından bu sayede tanınacaktır. 
 
 routerTest(config)#encapsulation dot1Q 10 ( yani burada 0/1 in  diğer ayağının VLAN 10 a bağlı olduğunu söylüyoruz)
 
