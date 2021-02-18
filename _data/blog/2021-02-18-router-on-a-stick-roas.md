@@ -17,7 +17,7 @@ Bu vlanların aralarında iletişim kurabilmeleri için Routerlar üzerinde yap�
 
 İlk olarak 2 pc için yapılandırmalarımızı hızlıca yapalım.
 
-```
+```cobol
 IT(config)#vlan 10 Switch(config-vlan)#vlan 20
 IT(config)#interface fastEthernet 0/1
 IT(config-if)#switchport access vlan 10
@@ -33,7 +33,7 @@ IT(config-if)#switchport mode trunk
 
 
 
-```
+```cobol
 routerTest>en
 routerTest>conf t
 routerTest(config)#Interface gigabitEtherne 0/1
@@ -43,21 +43,26 @@ routerTest(config)#no shutdown
 
 Portu sadece açıyoruz. herhangi bir ip adresi tanımlamayacağız.  Şimdi asıl noktaya gelelim. İlk interfacemizi oluşturalım ve vlan atamamızı yapalım!
 
-```
+```cobol
 routerTest(config)#Interface gigabitEthernet 0/1.10
 ```
 
-burada **.**'dan sonraki 10 değeri VLAN numaramız oluyor. bu işlemden sonra kapsüllenme işlemini yapmamız gerekiyor. VLAN Encapsulation data paketlerinin içerisindeki vlan kimliklerini tanımlamaktadır. burda gigabit 0/1 portu üzerinden geçecek olan 10 ve 20 vlanları diğer tüm vlanlar tarafından bu sayede tanınacaktır. 
+Burada **.**'dan sonraki 10 değeri VLAN numaramız oluyor. bu işlemden sonra kapsüllenme işlemini yapmamız gerekiyor. VLAN Encapsulation data paketlerinin içerisindeki vlan kimliklerini tanımlamaktadır. burda gigabit 0/1 portu üzerinden geçecek olan 10 ve 20 vlanları diğer tüm vlanlar tarafından bu sayede tanınacaktır. 
 
-routerTest(config)#encapsulation dot1Q 10 ( yani burada 0/1 in  diğer ayağının VLAN 10 a bağlı olduğunu söylüyoruz)
 
+
+```cobol
+routerTest(config)#encapsulation dot1Q 10
+routerTest(config)#ip address 192.168.10.1 255.255.255.0
 ```
- routerTest(config)#ip address 192.168.10.1 255.255.255.0
-```
 
-aynı işlemi vlan 20 içinde yapıyoruz.  Şimdi vlanlarımızı oluşturduk, Roas yapılandırmamızı yaptık gateway atama işlemlerini yaptık. 
+ **Yukarıdaki satırda 0/1 in  diğer ayağının VLAN 10 a bağlı olduğunu söylüyoruz.**
 
-ve böylece vlan10 ve vlan 20 haberleşebilir durumda.
+Aynı işlemi vlan 20 içinde yapınız.  
+
+Şimdi vlanlarımızı oluşturduk, Roas yapılandırmamızı yaptık gateway atama işlemlerini yaptık. 
+
+Böylece VLAN ve VLAN20 haberleşebilir durumda.
 
 Aşağıdaki resimde de gigabitEthernet0/0 ' ın 2 sub-interface'ini görebiliriz.
 
