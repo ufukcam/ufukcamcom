@@ -19,7 +19,8 @@ Bu vlanların aralarında iletişim kurabilmeleri için Routerlar üzerinde yap�
 İlk olarak 2 pc için yapılandırmalarımızı hızlıca yapalım.
 
 ```javascript
-IT(config)#vlan 10 Switch(config-vlan)#vlan 20
+IT(config)#vlan 10
+IT(config)#vlan 20
 IT(config)#interface fastEthernet 0/1
 IT(config-if)#switchport access vlan 10
 IT(config)#interface fastEthernet 0/2
