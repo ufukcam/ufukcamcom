@@ -4,7 +4,7 @@ path: /hyper-converged-hpe-simlivity
 date: 2021-02-22T12:04:34.839Z
 title: HPE Simlivity ve Hyper-Converged
 metaDescription: HPE Simlivity ve Hyper Converged Sistemler
-thumbnail: /assets/HCI.png
+thumbnail: /assets/ufukcam-hci.png
 ---
 veri merkezimizde yada sistem odalarımızda kullandıgımız sunucuların her birinin ayrı bir amaca hizmet etmesi şeklinde planlamalar yapıyorduk. Tabi bu yapılanmalar, kurulumlar IT ekipleri için apayrı bir iş yükü ve zaman kaybı yaratıyordu.  Bu kayıpları ve iş yüklerini ortadan kaldırmak için firmalar server,storage,network,failover cluster,virtulation,deduplication gibi işlemleri ve bunların yönetim yazılımlarını tek bir çatı altında toplayan HCI(hyper-converged infrastructure) ürünlerini ortaya çıkarttılar. En büyük avantajlarından birisi bu aslında. Eski geleneksel IT altyapılarında her bir platformun yönetim yazılımında farklılıklar olduğundan dolayı uyum sorunları yaşanıyordu. Hyper Converged sistemler ile bu ortadan kalkmış oluyor.
 
