@@ -14,7 +14,7 @@ En büyük avantajlarından birisi bu aslında. Eski geleneksel IT altyapıları
 
 Simlivity de  bir kaç yıl önce HPE tarafından satın alınmış [(650 milyon dolar)](https://www.wsj.com/articles/hewlett-packard-enterprise-to-buy-simplivity-for-650-million-1484691252) bir HCI(hyper-converged infrastructure) çözümüdür. 
 
-**Simlivity mottosu Sadelik ve HIZ.** 
+**Simlivity mottosu Sadelik ve Hız**
 
 Hewlett Packard Enterprise Simlivity ile storage,server,network altyapıları tarihe mi karışıyor ? Evet yada hayır. Kişiye kuruma göre değişir bence. 
 
