@@ -2,8 +2,6 @@
 # [ufukcam.com](http://ufukcam.com "ufukcam.com")
 Blog for Developer and Designer I used delog This simple website built with GatsbyJS and Netlify CMS. Deploys on netlify with single click. This Starter is sponsered by [W3Layouts](https://w3layouts.com).
 
-[![Delog - Gatsby Starter Demo](https://www.kodix.net/ufukcamcom.jpg)](https://ufukcam.com/)
-
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/W3Layouts/gatsby-starter-delog)
 
 
