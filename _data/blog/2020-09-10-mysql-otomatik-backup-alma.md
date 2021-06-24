@@ -11,7 +11,7 @@ Merhabalar arkadaşlar kullanmış olduğum hazır web sunucularından xampp vey
 
 Ekten indireceğiniz dosyaları C dizinine atmanız ve aşağıdaki bölümleri kendinize göre uyarlamanız yeterlidir. Sonrasında Task Scheduler ile otomatik bir görev tanımlamanız yeterlidir. Gerekli bilgileri aşağıda paylaşıyorum. 
 
-Dosyaları indirmek için [tıklayınız.](https://drive.google.com/file/d/1SXy7caXizVoHA1p9CEzwHdoZLL2gYiAg/view?usp=sharing)
+Dosyaları indirmek için [tıklayınız.](https://drive.google.com/file/d/1_VE7jmqUvS09aCPqXTGiHQl1hrBeZItq/view?usp=sharing)
 
 **set dbuser=**veritabanınızda tam yetkiye sahip bir kullanıcı
 
@@ -35,13 +35,9 @@ Zamanlanmış Görev Planımın Görüntüleri
 
 ![](/assets/swtp2.jpg)
 
-
-
 2- Bu kısımda ise yedeklememizin zamanını seçiyoruz.
 
 ![](/assets/1.jpg)
-
-
 
 3- Burada çalıştıracağımız batch file’ı seçmeniz yeterli olacaktır.
 
