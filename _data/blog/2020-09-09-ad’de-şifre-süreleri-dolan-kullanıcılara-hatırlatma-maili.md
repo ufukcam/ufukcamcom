@@ -9,8 +9,6 @@ thumbnail: /assets/active_directory_hatirlatma_maili.png
 ---
 Merhabalar arkadaşlar. Epeydir herhangi bir şeyler paylaşamadım. Bir evlilik serüvenim vardı. Çok şükür sorunsuz atlattık. Bugün sizlere Active Directory kullanan arkadaşlarım için şifre süreleri dolan kullanıcılara mail gönderebilme imkanını paylaşacağım.
 
-
-
 Hazırlanmış olan satırları açıklayayım
 
 $SMTPHost = mail gönderimi yapacağınız sunucuyu yazınız.
@@ -30,8 +28,6 @@ Bu işlemi otomatik yapılması içinde ben Görev zamanlayıcımdan belirli ara
 Ziyaretiniz için teşekkürler. İyi kalın.
 
 thanks #thelazyadmin
-
-
 
 ```powershell
 #VARs
@@ -145,21 +141,7 @@ Bilgisayar kullanım ve mail şifrenizin süresi dolmak üzeredir. Lütfen mümk
 a. Ofiste değilseniz, oturum açın ve VPN'e bağlanın.
 b. Her zamanki gibi bilgisayarınıza giriş yapın ve internete bağlı olduğunuzdan emin olun.
 c. Ctrl-Alt-Del tuşlarına basın ve "" Şifreyi Değiştir "" üzerine tıklayın.
-d. Eski şifrenizi girin ve yeni bir şifre belirleyin. Aşağıdaki şifre gereksinimlerine bakın.
-e. Masaüstünüze dönmek için OK düğmesine basın.
-Yeni parola, aşağıdakileri içeren kurumsal politikalarımızda belirtilen minimum gereksinimleri karşılamalıdır:
-1. En az 8 karakter uzunluğunda olmalı.
-2. Aşağıdaki 4 karakter grubundan 3'ünden en az bir karakter içermelidir:
-a. Büyük harfler (A-Z)
-b. Küçük harfler (a-z)
-c. Sayılar (0-9)
-d. Semboller (! @ # $% ^ & * ...)
-3. Son 24 şifrenizden hiçbiriyle eşleşemez.
-4. Kullanıcı adınızın 3 veya daha fazla ardışık karakteri ile eşleşen karakterleri içeremez.
-5. 24 saatlik bir sürede şifrenizi bir kereden daha fazla değiştiremezsiniz.
-Herhangi bir sorunuz varsa, lütfen support@thelazyadministrator.com adresinden Destek ekibimizle iletişime geçin veya xxxx numaralı telefondan bizi arayın.
-Teşekkürler,
-IT DEPARTMENT
+d. Eski şifrenizi girin ve yeni bir şifre belirleyin.
 it@xxx.com"
 Write-Host "Sending E-mail to $emailaddress..." -ForegroundColor Green
 Try
