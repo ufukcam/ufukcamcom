@@ -42,4 +42,6 @@ Böylelikle bu kısımdaki işlemlerimizi bitirmiş oluyoruz. Şimdi tek yapmam�
 
 ![](/assets/ornek.jpg)
 
-Tüm işlemler bu kadar, umarım işinize yaramıştır. Sevgiler.
+Tüm işlemler bu kadar, umarım işinize yaramıştır. Sevgiler.\
+\
+Not: Eğer domain forest yapınızda aynı alias'a sahip başka gruplar varsa tam grup adresini belirtebilirsiniz.
