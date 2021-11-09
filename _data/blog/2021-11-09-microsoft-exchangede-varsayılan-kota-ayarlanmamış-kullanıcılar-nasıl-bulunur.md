@@ -20,8 +20,12 @@ get-mailbox -ResultSize Unlimited | where {$_.UseDatabaseQuotaDefaults -ne $true
 
 Listelenen bu kullanıcıları varsayılan database kotalarına geri çekmek için ise aşağıdaki komutu kullanabiliriz.
 
-
-
 ```powershell
 get-mailbox -ResultSize Unlimited | where {$_.UseDatabaseQuotaDefaults -ne $true} | Set-Mailbox -UseDatabaseQuotaDefaults $true
 ```
+
+
+
+
+
+Sağlıklı günler.
