@@ -4,6 +4,7 @@ path: /exchange-2010-pst-export
 date: 2021-12-02T09:15:07.363Z
 title: Exchange Server 2010 - Mailbox Export .PST
 metaDescription: Exchange Server'da pst uzantılı export işlemi nasıl yapılır?
+thumbnail: /assets/exchange-server.jpg
 ---
 Merhabalar arkadaşlar bu yazımda sizlere bir mailbox'ı .pst halini nasıl export edebileceğimizi göstereceğim. 
 
