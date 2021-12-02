@@ -18,11 +18,7 @@ New-ManagementRoleAssignment –Role “Mailbox Import Export” –User ufuk.ca
 
 ![Exchange 2010](/assets/exhange-2010-ufukcam.png)
 
-<br>
-
-Yetki işlemini tamamladıktan sonra artık export işlemini başlatabiliriz. Bunun için gerekli kod'u aşağıda paylaşıyorum. 
-
-<br>
+Yetki işlemini tamamladıktan sonra artık export işlemini başlatabiliriz. Bunun için gerekli kod'u aşağıda paylaşıyorum. <br>
 
 ```powershell
 New-MailboxExportRequest -Mailbox ufuk.cam -FilePath “\\computername\Users\ufuk.cam\Desktop\ufukcam.pst”
@@ -36,6 +32,6 @@ Burada ben -FilePath olarak yine exchange sunucumun içindeki bir klasörü beli
 Get-MailboxExportRequest | Get-MailboxExportRequestStatistics
 ```
 
-Export işlemi başarı ile gerçekleşti. Bu export işlemlerini Exchange 2007 ve üzeri versiyonlarda kullanabilirsiniz.
+<br>Export işlemi başarı ile gerçekleşti. Bu export işlemlerini Exchange 2007 ve üzeri versiyonlarda kullanabilirsiniz.
 
 Sağlıklı günler dilerim 😊
