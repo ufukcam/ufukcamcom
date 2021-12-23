@@ -30,6 +30,7 @@ Switch(config-if)#switchport port-security maximum 1
 Switch(config-if)#switchport port-security violation shutdown
 ```
 
+<br>Maximum mac adresimizi belirledik ve violation durumunda shutdown olmasını ayarladık.\
 Yapmış olduğumuz güvenlik protokolümüzü görüntülemek için (fa 0/1)<br>
 
 ```javascript
