@@ -14,11 +14,7 @@ Merhabalar portlara gelen mac adreslerini kayıt altına alarak aynı porta baş
 Switch>en
 Switch#conf
 Switch(config)#interface fastEthernet 0/1
-Switch(config-if)#sw
 Switch(config-if)#switchport mode access 
-Switch(config-if)#sw
-Switch(config-if)#switchport po
-Switch(config-if)#switchport port-security 
 Switch(config-if)#switchport port-security ?
   aging        Port-security aging commands
   mac-address  Secure mac address
@@ -31,35 +27,38 @@ Switch(config-if)#switchport port-security mac-address ?
   sticky  Configure dynamic secure addresses as sticky
 Switch(config-if)#switchport port-security mac-address sticky 
 Switch(config-if)#switchport port-security maximum 1
-Switch(config-if)#switchport port-security violation shu
 Switch(config-if)#switchport port-security violation shutdown
 ```
 
- 
-
-Yapmış olduğumuz güvenlik protokolümüzü görüntülemek için (fa 0/1)
+Yapmış olduğumuz güvenlik protokolümüzü görüntülemek için (fa 0/1)<br>
 
 ```javascript
 sh port-security interface fastEthernet 0/1
 ```
 
-
-
-Kapanmış olan portu görüntülemek için
+Kapanmış olan portu görüntülemek için<br>
 
 ```javascript
 sh port-security 
 ```
 
-
-
-Kapanan portu açmak için
+Kapanan portu açmak için<br>
 
 ```javascript
 conf t
 #interface fastEthernet 0/1
 shutdown
-no sh
+no shshutdown
 ```
+
+Port Security tamamen kapatmak için no komutlarını kullanabilirsiniz.<br>
+
+```
+no switchport port-security maximum
+no  switchport port-security mac-address sticky
+no switchport port-security
+```
+
+
 
 <!--EndFragment-->
