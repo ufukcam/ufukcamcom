@@ -37,13 +37,13 @@ Yapmış olduğumuz güvenlik protokolümüzü görüntülemek için (fa 0/1)<br
 sh port-security interface fastEthernet 0/1
 ```
 
-Kapanmış olan portu görüntülemek için<br>
+<br>Kapanmış olan portu görüntülemek için<br>
 
 ```javascript
 sh port-security 
 ```
 
-Kapanan portu açmak için<br>
+<br>Kapanan portu açmak için<br>
 
 ```javascript
 conf t
@@ -52,7 +52,7 @@ shutdown
 no shshutdown
 ```
 
-Port Security tamamen kapatmak için no komutlarını kullanabilirsiniz.<br>
+<br>Port Security tamamen kapatmak için no komutlarını kullanabilirsiniz.<br>
 
 ```
 no switchport port-security maximum
