@@ -16,15 +16,7 @@ Switch#conf
 Switch(config)#interface fastEthernet 0/1
 Switch(config-if)#switchport mode access 
 Switch(config-if)#switchport port-security ?
-  aging        Port-security aging commands
-  mac-address  Secure mac address
-  maximum      Max secure addresses
-  violation    Security violation mode
-  <cr>
 Switch(config-if)#switchport port-security 
-Switch(config-if)#switchport port-security mac-address ?
-  H.H.H   48 bit mac address
-  sticky  Configure dynamic secure addresses as sticky
 Switch(config-if)#switchport port-security mac-address sticky 
 Switch(config-if)#switchport port-security maximum 1
 Switch(config-if)#switchport port-security violation shutdown
@@ -59,7 +51,5 @@ no switchport port-security maximum
 no  switchport port-security mac-address sticky
 no switchport port-security
 ```
-
-
 
 <!--EndFragment-->
