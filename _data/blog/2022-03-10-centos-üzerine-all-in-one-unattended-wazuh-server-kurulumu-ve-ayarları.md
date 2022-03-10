@@ -23,11 +23,11 @@ Benim şu an ki kullandığım sistem özellikleri aşağıdaki gibi.
 curl -so ~/unattended-installation.sh https://packages.wazuh.com/resources/4.2/open-distro/unattended-installation/unattended-installation.sh && bash ~/unattended-installation.sh
 ```
 
-Bu kurulum belirli bir süre geçtikten sonra son bulacak ve aşağıdaki çıktıyı göreceksiniz.  En temiz ve sizler için basit olan kurulum böyledir.
+<br>Bu kurulum belirli bir süre geçtikten sonra son bulacak ve aşağıdaki çıktıyı göreceksiniz.  En temiz ve sizler için basit olan kurulum böyledir.
 
 ```
- 04/7/2022 03:19:12 INFO: Installation finished
- 04/7/2022 03:19:12 INFO: You can access the web interface https://<kibana_ip>. The credentials are admin:admin
+ 03/10/2022 03:19:12 INFO: Installation finished
+ 03/10/2022 03:19:12 INFO: You can access the web interface https://<kibana_ip>. The credentials are admin:admin
 ```
 
 <br>Daha sonra ip ile wazuh kontrol paneline erişebilirsiniz.
@@ -37,7 +37,6 @@ Bu kurulum belirli bir süre geçtikten sonra son bulacak ve aşağıdaki çıkt
 <br>Şimdi wazuh kontrol paneline hiç geçmeden hızlıca agent eklemeye bakalım. Örnek olarak AD yapımdaki login olaylarını takip etmek istiyorum. Bunun için AD sunucumu ilk agent olarak ekleyeceğim. Ben kendi kullandığım deploy yolunu anlatacağım. Wazuh panelinden deploy etme yoluda var fakat bence ikiside aynı kapıya çıkıyor.
 
 İlk olarak agentıma wazuh agent yükleyicisini kullanarak yüklemek için [buradan](https://packages.wazuh.com/4.x/windows/wazuh-agent-4.2.5-1.msi) indirin ve kurun.\
-\
 Daha wazuh server'a bağlanıyorum. Ve agent managera giriyorum.<br>
 
 ```
@@ -53,3 +52,9 @@ Agent sunucumuzda **C:\Program Files (x86)\ossec-agent** yoluna gidiyoruz burada
 <br>Daha sonra wazuh panelinizde agent bölümünde active olarak görebilirsiniz.
 
 ![wazuh-agent-list](/assets/wazuh-agent-list.png)
+
+Agent üzerinde yapacağınız tüm local ayarları ossec.conf dosyası üzerinde yapabilirsiniz. Bunun için wazuh detaylı dökümanlarını inceleyebilirsiniz. 
+
+Dikkat edilmesi gereken önemli nokta ise wazuh agentlar ile birden fazla port kullanarak haberleşmektedir. Bunun için firewall'unuzda gerekli ayarları yapmaz iseniz agentlarınız ile haberleşemeyebilirsiniz. Bu durumuda agentda yine aynı yolda bulunan Ossec Log dosyasından görebilirsiniz. \
+\
+Gerekli Bağlantı Noktaları için [buraya](https://documentation.wazuh.com/current/getting-started/architecture.html) tıklayın.
