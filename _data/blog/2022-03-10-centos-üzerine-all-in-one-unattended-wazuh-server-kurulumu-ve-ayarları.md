@@ -58,4 +58,6 @@ Agent üzerinde yapacağınız tüm local ayarları ossec.conf dosyası üzerind
 
 Dikkat edilmesi gereken önemli nokta ise wazuh agentlar ile birden fazla port kullanarak haberleşmektedir. Bunun için firewall'unuzda gerekli ayarları yapmaz iseniz agentlarınız ile haberleşemeyebilirsiniz. Bu durumuda agentda yine aynı yolda bulunan Ossec Log dosyasından görebilirsiniz. \
 \
-Gerekli Bağlantı Noktaları için [buraya](https://documentation.wazuh.com/current/getting-started/architecture.html) tıklayın.
+Gerekli Bağlantı Noktaları için [buraya](https://documentation.wazuh.com/current/getting-started/architecture.html) tıklayın.\
+\
+Bir sonraki yazımda agent ayarları, log filtrelemeleri, cluster yapısı ve email ayarları ile ilgili paylaşımlar yapacağım. Vakit ayırdığınız için teşekkür ederim.
