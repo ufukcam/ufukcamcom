@@ -49,3 +49,7 @@ Daha wazuh server'a bağlanıyorum. Ve agent managera giriyorum.<br>
 Agent sunucumuzda **C:\Program Files (x86)\ossec-agent** yoluna gidiyoruz burada bulunan win32ui.exe yi çalıştırabilirsiniz. Aynı zamanda ossec.conf dosyasınıda yapılandırabilirsiniz. GUI(win32ui.exe) üzerinden devam edecek olursak açılan pencerede Wazuh server ipnizi ve not almış olduğunuz keyinizi giriyor ve save diyorsunuz. Save dedikten sonra Manage menüsünden agent'ı başlatabilirsiniz. <br>
 
 ![wazuh-agents](/assets/Ekran Resmi 2022-03-10 20.43.04.png)
+
+<br>Daha sonra wazuh panelinizde agent bölümünde active olarak görebilirsiniz.
+
+![wazuh-agent-list](/assets/wazuh-agent-list.png)
