@@ -35,7 +35,7 @@ curl -so ~/unattended-installation.sh https://packages.wazuh.com/resources/4.2/o
 
 ![Wazuh Login Screen](/assets/wazuh-login-scren.png "Wazuh Login Screen")
 
-<br>Şimdi wazuh kontrol paneline hiç geçmeden hızlıca agent eklemeye bakalım. Örnek olarak AD yapımdaki login olaylarını takip etmek istiyorum. Bunun için AD sunucumu ilk agent olarak ekleyeceğim. Ben kendi kullandığım deploy yolunu anlatacağım. Wazuh panelinden deploy etme yoluda var fakat bence ikiside aynı kapıya çıkıyor.
+Şimdi wazuh kontrol paneline hiç geçmeden hızlıca agent eklemeye bakalım. Örnek olarak AD yapımdaki login olaylarını takip etmek istiyorum. Bunun için AD sunucumu ilk agent olarak ekleyeceğim. Ben kendi kullandığım deploy yolunu anlatacağım. Wazuh panelinden deploy etme yoluda var fakat bence ikiside aynı kapıya çıkıyor.
 
 İlk olarak agent'a wazuh agent yükleyicisini kullanarak yükleme yapmak için [buradan](https://packages.wazuh.com/4.x/windows/wazuh-agent-4.2.5-1.msi) kurulum exesini indirip kurun.\
 Daha wazuh server'a bağlanıyorum ve agent manager'a giriyorum.<br>
