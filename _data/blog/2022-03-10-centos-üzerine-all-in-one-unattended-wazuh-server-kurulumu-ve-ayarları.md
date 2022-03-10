@@ -4,7 +4,7 @@ path: /wazuh-kurulumu-ve-ayarlari
 date: 2022-03-10T17:06:35.651Z
 title: Centos üzerine All in One Unattended Wazuh Server Kurulumu ve Ayarları
 metaDescription: 'Wazuh Kurulumu ve Ayarları, Wazuh Installation All in One'
-thumbnail: ''
+thumbnail: /assets/wazuh-blog2.jpg
 ---
 Merhabalar bildiğiniz üzere Wazuh açık kaynak kodlu bir SIEM ürünüdür. Wazuh yetkisiz girişleri, regedit kayıtlarını, log analizlerini, zafiyetleri gibi bir çok alandaki loglarınızı takip eder ve anlaşılabilir şekilde size bildirir. Active Response olaylarını başka bir yazımda anlatacağım. Centos kurulumundan başlamıyorum. Eğer centos kurulumuna ihtiyaç duyarsanız [buradan](https://phoenixnap.com/kb/how-to-install-centos-7) erişebilirsiniz.
 
