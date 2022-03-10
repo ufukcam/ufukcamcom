@@ -21,12 +21,9 @@ Benim şu an ki kullandığım sistem özellikleri aşağıdaki gibi.
 
 ```editorconfig
 curl -so ~/unattended-installation.sh https://packages.wazuh.com/resources/4.2/open-distro/unattended-installation/unattended-installation.sh && bash ~/unattended-installation.sh
-
 ```
 
 Bu kurulum belirli bir süre geçtikten sonra son bulacak ve aşağıdaki çıktıyı göreceksiniz.  En temiz ve sizler için basit olan kurulum böyledir.
-
-
 
 ```
  04/7/2022 03:19:12 INFO: Installation finished
@@ -36,3 +33,19 @@ Bu kurulum belirli bir süre geçtikten sonra son bulacak ve aşağıdaki çıkt
 Daha sonra ip ile wazuh kontrol paneline erişebilirsiniz.
 
 ![Wazuh Login Screen](/assets/wazuh-login-scren.png "Wazuh Login Screen")
+
+Şimdi wazuh kontrol paneline hiç geçmeden hızlıca agent eklemeye bakalım. Örnek olarak AD yapımdaki login olaylarını takip etmek istiyorum. Bunun için AD sunucumu ilk agent olarak ekleyeceğim. Ben kendi kullandığım deploy yolunu anlatacağım. Wazuh panelinden deploy etme yoluda var fakat bence ikiside aynı kapıya çıkıyor.
+
+İlk olarak agentıma wazuh agent yükleyicisini kullanarak yüklemek için [buradan](https://packages.wazuh.com/4.x/windows/wazuh-agent-4.2.5-1.msi) indirin ve kurun.\
+\
+Daha wazuh server'a bağlanıyorum. Ve agent managera giriyorum. 
+
+```
+[root@localhost ~]# /var/ossec/bin/manage_agents
+```
+
+ Bu bölüm sizi yönlendirecektir. Buradan Add an agent yolunu takip ederek bir agent ekliyoruz. Ve işlem sonucunda bize bir key veriyor. Bu keyi saklıyoruz. Artık agent'ımız wazuh servera eklendi. Şimdi agent ayarlarını yapmalım.
+
+Agent sunucumuzda **C:\Program Files (x86)\ossec-agent** yoluna gidiyoruz burada bulunan win32ui.exe yi çalıştırabilirsiniz. Aynı zamanda ossec.conf dosyasınıda yapılandırabilirsiniz. GUI(win32ui.exe) üzerinden devam edecek olursak açılan pencerede Wazuh server ipnizi ve not almış olduğunuz keyinizi giriyor ve save diyorsunuz. Save dedikten sonra Manage menüsünden agent'ı başlatabilirsiniz. 
+
+![wazuh-agents](/assets/Ekran Resmi 2022-03-10 20.43.04.png)
