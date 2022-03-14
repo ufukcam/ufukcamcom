@@ -6,41 +6,43 @@ title: SQL Server Maintenance Backup Planı
 metaDescription: SQL Server Maintenance Backup Planı
 thumbnail: /assets/sql_server_backup.jpg
 ---
-Merhabalar SQL serverlarda kullandığımız temel back-up yapısını göstereceğim. İlk olarak SQL Server Management Studio Explorer menüsünde Management altındaki Maintenance Plans kısmından yeni bir plan oluşturuyoruz.
+Merhabalar SQL serverlarda kullandığımız temel back-up yapısını göstereceğim. İlk olarak SQL Server Management Studio Explorer menüsünde Management altındaki Maintenance Plans kısmından **Maintenance Plan Wizard**'ı açıyoruz.
 
-![](/assets/sql1.png)
+![sql-server-backup-planı](/assets/sql1.png)
 
+Daha sonra next diyerek devam ediyoruz. Karşımıza gelen bölümde planımıza bir isim veriyor ve **"Single schedula for the entire plan or no schedule"** seçip planımızı belirlediğimiz zamanlarda tekrar etmesini istediğimizi belirtiyoruz. Bunu Change kısmında gerçekleştirebiliyoruz. Ben günlük olarak ayarlıyorum.
 
+![sql-server-backup-planı](/assets/sql2.png)
 
-Daha sonra sol menüye oluşturacağımız Maintenance Plan Taskleri menüsünü göreceksiniz. Ben burada sırası ile **Backup Database Task – Cleanup Task – History Cleanup Task** seçeneklerini kullanıyorum. İlk adım olarak Backup Task’ini ekliyorum ve editliyorum.
+![sql-server-backup-planı](/assets/sql3.png)
 
-![](/assets/sql2.jpg)
+Devam ederek karşımıza çıkan seçeneklerde ne yapacağımızı belirliyoruz. Burada full backup alacağımız için **"Back Up Database (Full)"** seçeneği ile devam ediyoruz.
 
-
-
- **A)** Database Task menüsünde dikkate almamız gereken 3 kısımdan bahsedeceğim.
-
-1. olarak backup alacağımız database’leri ilgili görseldeki gibi seçiyoruz. Ben burada All Database seçeneğini seçtim.
-2. olarak “Backup set will expire” seçeneğinde after seçili olduğu durumda bu yedek girdiğiniz değer kadar muhafaza edilmektedir. Siz bu seçeneği kendinize göre ayarlayabilirsiniz.
-3. olarak ise “Create Backup file for every database” kısmından .bak uzantılı yedeklerimizi barındıracağımız yeri seçiyoruz.
-
-![](/assets/sql3.jpg)
-
-
-
-**B)** Şimdi Cleanup Task seçeneğini kullanarak almış olduğumuz yedeklerimizi temizliyoruz.
-
-
-
-![](/assets/sql4.jpg)
+![sql-server-backup-planı](/assets/sql4.png)
 
 \
-C) History Cleanup Task ilede yukarıda yapmış olduğumuz işlemler ile ilgli log dosyalarını belirlediğimiz aralıklarla temizleyecektir.
+Sıradaki bölümde **General** tabında Database bölümünden yedeklenecek databaseleri seçebiliriz. 
 
-![](/assets/sql5.jpg)
+![sql-server-backup-planı](/assets/sql5.png)
 
+**Destination** tabında ise seçtiğimiz databaselerin nereye yedekleneceğini belirliyoruz. **"Create a backup file for every database"** bölümünden.
 
+![sql-server-backup-planı](/assets/sql6.png)
 
-D) İşlemlerimiz bu kadar ekte görüldüğü gibi birbirine bağlama işlemlerini yaptıktan sonra task’lerimizi çalıştırabiliriz. Zaman ayırdığınız için teşekkürler.Kolay gelsin.
+Options tabında ise **"Backup set wil expire"** süremizi belirleyebilir ve teknik ayarlamalar yapabiliriz. 
 
-![](/assets/sql6.jpg)
+![sql-server-backup-planı](/assets/sql6.5.png)
+
+Artık planımız hazır kaydedebiliriz!
+
+![sql-server-backup-planı](/assets/sql7.png)
+
+Ek olarak ben Cleanup tasklarımıda ekledim. İsteğe göre ekleyebilirsiniz. 
+
+![sql-server-backup-planı](/assets/sql8.png)
+
+![](/assets/sql9.png)
+
+Son dizaynım bu şekilde. Esen kalın.
+
+![](/assets/endsql.png)
