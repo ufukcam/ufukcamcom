@@ -17,8 +17,6 @@ exampleArray.flat(); // derinlik belirtmiyorum.
 // Output : [10,20,30,40,50,60,70];
 ```
 
-
-
 şimdi ise derinlik belirtelim.
 
 kullanımı bu şekildedir => array.flat(<depth>); Derinlik belirtmemişsek derinliği 1 olarak alacaktır.
@@ -29,8 +27,6 @@ exampleArray.flat(2); // depth 2
 // Output : [10,20,30,40,50,60,70];
 ```
 
-
-
 **2. every()**
 
 Belirtiğimiz koşul için array içerisindeki tüm elemanları kontrol eder. Eğer hepsi buna uyuyorsa true dönecektir.
@@ -40,8 +36,6 @@ const exampleArray = [10, 20, 30, 40, 50, 60, 70];
 exampleArray.every(num => num >= 10); // hepsi 10'dan büyük yada eşitse
 // Output : TRUE
 ```
-
-
 
 **3. some()**
 
@@ -54,15 +48,11 @@ exampleArray.some(letter => letter === 'u'); // u harfi varsa
 // Output : TRUE
 ```
 
-
-
 kısaca yazmak gerekirse;
 
 ```javascript
 const exampleArray = ['k', 'u', 't', 'a', 'y'].some(baby => baby === 'u');
 ```
-
-
 
 bir örnekle daha yapalım.
 
@@ -70,8 +60,6 @@ bir örnekle daha yapalım.
 const example2 = [10, 20, 30, 40].some(num => num > 20); // 20'den büyük numara varsa
 // Output : TRUE
 ```
-
-
 
 **4. map()**
 
@@ -89,8 +77,6 @@ const newArray = exampleArray.map(value => value * 2); // 2 ile çarpalım
  
 // newArray Output : [4, 8, 12, 16, 20, 24]
 ```
-
-
 
 **5. filter()**
 
@@ -111,8 +97,6 @@ exampleArray.filter(Element => Element.user === 'Kutay');
 //           1:{user: "Kutay", salary: 400}
 ```
 
-
-
 **6. find()**
 
 Find methodu aldığı test fonksiyonuna bakarak array içerisinde gezer ve ilk karşılaştığı değeri bize verir. Hemen örnek yapalım.
@@ -128,8 +112,6 @@ const exampleArray = [
 exampleArray.find(Element => Element.salary === 100);
 // Output: {user: "Kutay", salary: 100}
 ```
-
-
 
 **7. findIndex()**
 
@@ -147,8 +129,6 @@ const x = exampleArray.findIndex(element => element.user === 'Cenk');
 //Output: 3 eğer bulamıyorsa -1 döndürür
 ```
 
-
-
 **8. forEach()**
 
 Bu method array içerisindeki her eleman için yazdığım fonksiyonu uygulayacak.
@@ -162,15 +142,13 @@ const exampleArray = [
 ];
  
  
-exampleArray.filter(Element => console.log(Element.user));
+exampleArray.forEach(Element => console.log(Element.user));
  
 // Output: Kutay
 //         Ahmet
 //         Mehmet
 //         Kutay
 ```
-
-
 
 **9. sort()**
 
@@ -187,8 +165,6 @@ const exampleArray = ['Zeynep', 'Mehmet', 'Ali', 'Burak', 'Abbas'];
 exampleArray.sort();
 // Output: ["Abbas", "Ali", "Burak", "Mehmet", "Zeynep"]
 ```
-
-
 
 **10. reverse()**
 
