@@ -4,6 +4,7 @@ path: /raid-nedir
 date: 2023-01-22T14:13:17.157Z
 title: 'RAID Nedir? RAID 0, RAID 1, RAID 5, RAID 10 '
 metaDescription: Raid nedir? Raid seviyeleri hakkında kısa bilgiler.
+thumbnail: /assets/pexels-markus-spiske-2644597.jpg
 ---
 RAID, Redundant Array of Independent Disks (Bağımsız Disklerin Redundant Dizisi) olarak adlandırılan bir veri depolama teknolojisidir. RAID sistemi, birden fazla fiziksel diskten oluşan bir dizi disk kullanarak veri kaybını en aza indirir ve performansı arttırır. RAID seviyeleri arasında RAID 0, RAID 1, RAID 5, RAID 6 ve RAID 10 gibi seçenekler bulunmaktadır. Her seviye farklı amaçlar için kullanılabilir.
 
