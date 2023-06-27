@@ -27,6 +27,12 @@ Kontrol etmek için aşağıdaki komutu kullanabilirsiniz.
 
 ```powershell
 (Invoke-WmiMethod -PATH (gwmi -namespace root\cimv2\terminalservices -class win32_terminalservicesetting).__PATH -name GetGracePeriodDays).daysleft
-
-
 ```
+
+
+
+B﻿ONUS: 
+
+C﻿MD'yi yönetici olarak açlıştırarak aşağıdaki komutu kullanabilirsiniz.
+
+**reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\RCM\GracePeriod" /f /va**
