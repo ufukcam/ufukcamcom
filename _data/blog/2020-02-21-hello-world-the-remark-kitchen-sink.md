@@ -33,6 +33,6 @@ Kontrol etmek için aşağıdaki komutu kullanabilirsiniz.
 
 B﻿ONUS: 
 
-C﻿MD'yi yönetici olarak açlıştırarak aşağıdaki komutu kullanabilirsiniz.
+C﻿MD'yi yönetici olarak çalıştırarak reg delete'i kullanabilirsiniz.
 
 **reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\RCM\GracePeriod" /f /va**
