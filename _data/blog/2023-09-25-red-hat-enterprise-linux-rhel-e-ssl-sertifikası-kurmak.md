@@ -27,12 +27,12 @@ Red Hat Enterprise Linux (RHEL) üzerinde bir SSL sertifikası kurmak için aşa
 
 
 
-   ```
+   ```apl
    sudo vi /etc/httpd/conf.d/ssl.conf
    ```
 4. Dosya içeriğini aşağıdaki gibi düzenleyin:
 
-   ```
+   ```apl
    <VirtualHost *:443>
        ServerAdmin admin@example.com
        DocumentRoot /var/www/html
@@ -56,7 +56,7 @@ Red Hat Enterprise Linux (RHEL) üzerinde bir SSL sertifikası kurmak için aşa
    Yapılandırmayı kaydedin ve çıkın.
 5. **Apache HTTP Sunucusunu Yeniden Başlatma**: Yapılandırmaları kaydettikten sonra Apache HTTP sunucusunu yeniden başlatın:
 
-   ```
+   ```apl
    sudo systemctl restart httpd
    ```
 
