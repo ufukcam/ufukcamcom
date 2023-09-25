@@ -3,7 +3,7 @@ template: BlogPost
 path: /rhel-linux-ssl-yukleme
 date: 2023-09-25T08:14:33.376Z
 title: ' Red Hat Enterprise Linux (RHEL)''e SSL Sertifikası Kurmak '
-metaDescription: >+
+metaDescription: >
   Red Hat Enterprise Linux (RHEL) üzerinde bir SSL sertifikası kurmak için
   aşağıdaki adımları takip edebilirsiniz. Bu örnekte, Apache HTTP Sunucusu'nu
   kullanarak bir SSL sertifikası kurmayı ele alacağım. Apache HTTP Sunucusu,
@@ -15,21 +15,22 @@ Red Hat Enterprise Linux (RHEL) üzerinde bir SSL sertifikası kurmak için aşa
 
 1. **Apache ve Mod SSL Kurulumu**: Eğer kurulu değilse, Apache web sunucusunu ve Apache'nin SSL modülünü kurun. Aşağıdaki komutları kullanarak kurulum yapabilirsiniz:
 
-   ```
+   ```kotlin
    sudo yum install httpd mod_ssl
-
    ```
+
+
 2. **SSL Sertifikasını Sunucuya Yükleme**: SSL sertifikasını ve özel anahtarınızı sunucunuza yükleyin. Bu dosyaları güvenli bir şekilde saklayın.
 
    * SSL sertifikanızı sunucunuzdaki `/etc/pki/tls/certs` dizinine, özel anahtarınızı `/etc/pki/tls/private` dizinine kopyalayın. Dosya adlarını uygun bir şekilde değiştirin (genellikle `example.com.crt` ve `example.com.key` gibi).
 3. **Apache SSL Ayarlarını Yapılandırma**: Apache'nin SSL ayarlarını yapılandırmanız gerekecektir. Bu ayarları düzenlemek için aşağıdaki komutları kullanabilirsiniz:
 
+
+
    ```
    sudo vi /etc/httpd/conf.d/ssl.conf
-
    ```
-
-   Dosya içeriğini aşağıdaki gibi düzenleyin:
+4. Dosya içeriğini aşağıdaki gibi düzenleyin:
 
    ```
    <VirtualHost *:443>
@@ -50,15 +51,13 @@ Red Hat Enterprise Linux (RHEL) üzerinde bir SSL sertifikası kurmak için aşa
            downgrade-1.0 force-response-1.0
        BrowserMatch "MSIE [17-9]" ssl-unclean-shutdown
    </VirtualHost>
-
    ```
 
    Yapılandırmayı kaydedin ve çıkın.
-4. **Apache HTTP Sunucusunu Yeniden Başlatma**: Yapılandırmaları kaydettikten sonra Apache HTTP sunucusunu yeniden başlatın:
+5. **Apache HTTP Sunucusunu Yeniden Başlatma**: Yapılandırmaları kaydettikten sonra Apache HTTP sunucusunu yeniden başlatın:
 
    ```
    sudo systemctl restart httpd
-
    ```
 
    Artık SSL sertifikasıyla güvenli bir şekilde çalışan bir web sunucunuz var. Tarayıcıda `https://example.com` gibi bir URL'yi ziyaret ederek test edebilirsiniz. İlgili sertifikanın doğru bir şekilde çalıştığından emin olun.
