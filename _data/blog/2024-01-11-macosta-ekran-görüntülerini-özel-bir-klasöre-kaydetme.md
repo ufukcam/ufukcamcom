@@ -10,6 +10,7 @@ metaDescription: >-
   oldukça yararlıdır. Bu blog yazısında, macOS'ta ekran görüntülerini özel
   olarak oluşturduğunuz bir klasöre nasıl kaydedebileceğinizi adım adım
   anlatacağım.
+thumbnail: /assets/indir (1).jpeg
 ---
 
 
