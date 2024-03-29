@@ -26,25 +26,23 @@ metaDescription: >
 
     ```powershell
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+
     ```
 
-    Ardından, scripti tekrar çalıştırın:<br/>
+    Ardından, scripti tekrar çalıştırın: Scripti çalıştırdıktan sonra onay verince varolan sürenizi görebilirsiniz. Ardından 120 günlük lisans süreniz tanımlanmış olacaktır.
 
     ```powershell
     .\ts-reset-period.ps1 -Force
-        
+
     ```
-<br/>
-**3. Güvenlik Önlemleri:**
+  * Yukarıdaki işlem, yalnızca güvendiğiniz scriptler için kullanılmalıdır.
+  * İşlemden sonra, güvenlik için yürütme politikanızı eski haline getirmeyi unutmayın: 
 
-* Yukarıdaki işlem, yalnızca güvendiğiniz scriptler için kullanılmalıdır.
-* İşlemden sonra, güvenlik için yürütme politikanızı eski haline getirmeyi unutmayın:
-<br/>
-  ````
-  ```powershell
-  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Restricted
+    ```powershell
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Restricted
 
-  ```
-  ```` 
-<br/>
-**Sonuç:** Grace Period sıfırlama, Terminal Server yönetiminde önemli bir işlevdir. Bu makalede anlatılan adımlar, bu süreci kolay ve güvenli bir şekilde gerçekleştirmenizi sağlar. Güvenliğinizi göz ardı etmeden, bu yöntemleri kullanarak Terminal Server ortamınızı daha verimli yönetebilirsiniz.
+    ```
+
+**3. Sonuç:** Grace Period sıfırlama, Terminal Server yönetiminde önemli bir işlevdir. Bu makalede anlatılan adımlar, bu süreci kolay ve güvenli bir şekilde gerçekleştirmenizi sağlar. Güvenliğinizi göz ardı etmeden, bu yöntemleri kullanarak Terminal Server ortamınızı daha verimli yönetebilirsiniz.
