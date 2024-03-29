@@ -3,7 +3,7 @@ template: BlogPost
 path: /terminal-server-lisans-resetleme-grace-period
 date: 2024-03-29T12:19:09.474Z
 title: 'Terminal Serverlarda Grace Period Sıfırlama: Etkili Bir Yöntem'
-metaDescription: >+
+metaDescription: >
   Terminal Server ortamlarında Grace Period (Zaman Aşımı Süresi), özellikle
   lisanslama konusunda kritik bir rol oynar. Bu süre, kullanıcıların lisans
   altyapısının tam olarak kurulması için geçici bir süre sağlar. Ancak, bazı
@@ -26,7 +26,6 @@ metaDescription: >+
 
     ```powershell
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
     ```
 
     Ardından, scripti tekrar çalıştırın:
@@ -36,14 +35,16 @@ metaDescription: >+
         
     ```
 
-    **3. Güvenlik Önlemleri:**
+**3. Güvenlik Önlemleri:**
 
-    * Yukarıdaki işlem, yalnızca güvendiğiniz scriptler için kullanılmalıdır.
-    * İşlemden sonra, güvenlik için yürütme politikanızı eski haline getirmeyi unutmayın:
+* Yukarıdaki işlem, yalnızca güvendiğiniz scriptler için kullanılmalıdır.
+* İşlemden sonra, güvenlik için yürütme politikanızı eski haline getirmeyi unutmayın:
 
-      ```powershell
-      Set-ExecutionPolicy -Scope Process -ExecutionPolicy Restricted
+  ````
+  ```powershell
+  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Restricted
 
-      ```
+  ```
+  ````
 
-      **Sonuç:**Grace Period sıfırlama, Terminal Server yönetiminde önemli bir işlevdir. Bu makalede anlatılan adımlar, bu süreci kolay ve güvenli bir şekilde gerçekleştirmenizi sağlar. Güvenliğinizi göz ardı etmeden, bu yöntemleri kullanarak Terminal Server ortamınızı daha verimli yönetebilirsiniz.
+**Sonuç:** Grace Period sıfırlama, Terminal Server yönetiminde önemli bir işlevdir. Bu makalede anlatılan adımlar, bu süreci kolay ve güvenli bir şekilde gerçekleştirmenizi sağlar. Güvenliğinizi göz ardı etmeden, bu yöntemleri kullanarak Terminal Server ortamınızı daha verimli yönetebilirsiniz.
