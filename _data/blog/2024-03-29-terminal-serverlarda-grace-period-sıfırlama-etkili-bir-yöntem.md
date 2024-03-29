@@ -28,23 +28,23 @@ metaDescription: >
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
     ```
 
-    Ardından, scripti tekrar çalıştırın:
+    Ardından, scripti tekrar çalıştırın:<br/>
 
     ```powershell
     .\ts-reset-period.ps1 -Force
         
     ```
-
+<br/>
 **3. Güvenlik Önlemleri:**
 
 * Yukarıdaki işlem, yalnızca güvendiğiniz scriptler için kullanılmalıdır.
 * İşlemden sonra, güvenlik için yürütme politikanızı eski haline getirmeyi unutmayın:
-
+<br/>
   ````
   ```powershell
   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Restricted
 
   ```
-  ````
-
+  ```` 
+<br/>
 **Sonuç:** Grace Period sıfırlama, Terminal Server yönetiminde önemli bir işlevdir. Bu makalede anlatılan adımlar, bu süreci kolay ve güvenli bir şekilde gerçekleştirmenizi sağlar. Güvenliğinizi göz ardı etmeden, bu yöntemleri kullanarak Terminal Server ortamınızı daha verimli yönetebilirsiniz.
